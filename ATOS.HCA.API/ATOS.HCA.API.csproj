@@ -4,5 +4,23 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.20" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.2.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.13.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HCA.LabReports.BO\HCA.LabReports.BO.csproj" />
+    <ProjectReference Include="..\HCA.LabReportsClient\HCA.LabReportsClient.csproj" />
+    <ProjectReference Include="..\HCA.Patient.BO\HCA.Patient.BO.csproj" />
+    <ProjectReference Include="..\HCA.PatientClient\HCA.PatientClient.csproj" />
+    <ProjectReference Include="..\HCA.Tests.BO\HCA.Tests.BO.csproj" />
+    <ProjectReference Include="..\HCA.Users.BO\HCA.Users.BO.csproj" />
+    <ProjectReference Include="..\HCA.UsersClient\HCA.UsersClient.csproj" />
+    <ProjectReference Include="..\HCA.Utilities\HCA.Utilities.csproj" />
+  </ItemGroup>
+
 
 </Project>
