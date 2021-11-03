@@ -50,6 +50,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HCA.LabReports.DAL", "..\HC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATOS.HCA.API", "..\ATOS.HCA.API\ATOS.HCA.API.csproj", "{C27107DE-198A-49D1-8577-0B66181A98FF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB Diagram", "DB Diagram", "{ECD792DE-F5E2-4717-B7BA-0A2953B57499}"
+	ProjectSection(SolutionItems) = preProject
+		..\Database\ATOS HCA DB Diagram.png = ..\Database\ATOS HCA DB Diagram.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
