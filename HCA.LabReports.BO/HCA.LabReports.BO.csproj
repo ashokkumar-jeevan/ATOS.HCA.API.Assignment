@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HCA.Patient.BO\HCA.Patient.BO.csproj" />
+    <ProjectReference Include="..\HCA.Tests.BO\HCA.Tests.BO.csproj" />
+  </ItemGroup>
+
+</Project>
